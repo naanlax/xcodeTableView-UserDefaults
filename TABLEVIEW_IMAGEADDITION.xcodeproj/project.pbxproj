@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B830F6882CCFA2A100A00FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B830F6692CCFA2A000A00FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B830F6702CCFA2A000A00FDA;
+			remoteInfo = TABLEVIEW_IMAGEADDITION;
+		};
+		B830F6922CCFA2A100A00FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B830F6692CCFA2A000A00FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B830F6702CCFA2A000A00FDA;
+			remoteInfo = TABLEVIEW_IMAGEADDITION;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B830F6712CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TABLEVIEW_IMAGEADDITION.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B830F6872CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABLEVIEW_IMAGEADDITIONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B830F6912CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABLEVIEW_IMAGEADDITIONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B830F6992CCFA2A100A00FDA /* Exceptions for "TABLEVIEW_IMAGEADDITION" folder in "TABLEVIEW_IMAGEADDITION" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B830F6702CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B830F6732CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B830F6992CCFA2A100A00FDA /* Exceptions for "TABLEVIEW_IMAGEADDITION" folder in "TABLEVIEW_IMAGEADDITION" target */,
+			);
+			path = TABLEVIEW_IMAGEADDITION;
+			sourceTree = "<group>";
+		};
+		B830F68A2CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TABLEVIEW_IMAGEADDITIONTests;
+			sourceTree = "<group>";
+		};
+		B830F6942CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TABLEVIEW_IMAGEADDITIONUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B830F66E2CCFA2A000A00FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B830F6842CCFA2A100A00FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B830F68E2CCFA2A100A00FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B830F6682CCFA2A000A00FDA = {
+			isa = PBXGroup;
+			children = (
+				B830F6732CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION */,
+				B830F68A2CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONTests */,
+				B830F6942CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONUITests */,
+				B830F6722CCFA2A000A00FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B830F6722CCFA2A000A00FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B830F6712CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION.app */,
+				B830F6872CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONTests.xctest */,
+				B830F6912CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B830F6702CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B830F69A2CCFA2A100A00FDA /* Build configuration list for PBXNativeTarget "TABLEVIEW_IMAGEADDITION" */;
+			buildPhases = (
+				B830F66D2CCFA2A000A00FDA /* Sources */,
+				B830F66E2CCFA2A000A00FDA /* Frameworks */,
+				B830F66F2CCFA2A000A00FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B830F6732CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION */,
+			);
+			name = TABLEVIEW_IMAGEADDITION;
+			packageProductDependencies = (
+			);
+			productName = TABLEVIEW_IMAGEADDITION;
+			productReference = B830F6712CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B830F6862CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B830F69F2CCFA2A100A00FDA /* Build configuration list for PBXNativeTarget "TABLEVIEW_IMAGEADDITIONTests" */;
+			buildPhases = (
+				B830F6832CCFA2A100A00FDA /* Sources */,
+				B830F6842CCFA2A100A00FDA /* Frameworks */,
+				B830F6852CCFA2A100A00FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B830F6892CCFA2A100A00FDA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B830F68A2CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONTests */,
+			);
+			name = TABLEVIEW_IMAGEADDITIONTests;
+			packageProductDependencies = (
+			);
+			productName = TABLEVIEW_IMAGEADDITIONTests;
+			productReference = B830F6872CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B830F6902CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B830F6A22CCFA2A100A00FDA /* Build configuration list for PBXNativeTarget "TABLEVIEW_IMAGEADDITIONUITests" */;
+			buildPhases = (
+				B830F68D2CCFA2A100A00FDA /* Sources */,
+				B830F68E2CCFA2A100A00FDA /* Frameworks */,
+				B830F68F2CCFA2A100A00FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B830F6932CCFA2A100A00FDA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B830F6942CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONUITests */,
+			);
+			name = TABLEVIEW_IMAGEADDITIONUITests;
+			packageProductDependencies = (
+			);
+			productName = TABLEVIEW_IMAGEADDITIONUITests;
+			productReference = B830F6912CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B830F6692CCFA2A000A00FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B830F6702CCFA2A000A00FDA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B830F6862CCFA2A100A00FDA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B830F6702CCFA2A000A00FDA;
+					};
+					B830F6902CCFA2A100A00FDA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B830F6702CCFA2A000A00FDA;
+					};
+				};
+			};
+			buildConfigurationList = B830F66C2CCFA2A000A00FDA /* Build configuration list for PBXProject "TABLEVIEW_IMAGEADDITION" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B830F6682CCFA2A000A00FDA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B830F6722CCFA2A000A00FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B830F6702CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION */,
+				B830F6862CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONTests */,
+				B830F6902CCFA2A100A00FDA /* TABLEVIEW_IMAGEADDITIONUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B830F66F2CCFA2A000A00FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B830F6852CCFA2A100A00FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B830F68F2CCFA2A100A00FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B830F66D2CCFA2A000A00FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B830F6832CCFA2A100A00FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B830F68D2CCFA2A100A00FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B830F6892CCFA2A100A00FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B830F6702CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION */;
+			targetProxy = B830F6882CCFA2A100A00FDA /* PBXContainerItemProxy */;
+		};
+		B830F6932CCFA2A100A00FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B830F6702CCFA2A000A00FDA /* TABLEVIEW_IMAGEADDITION */;
+			targetProxy = B830F6922CCFA2A100A00FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B830F69B2CCFA2A100A00FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UJ7NF2NUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TABLEVIEW_IMAGEADDITION/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nandhika.TABLEVIEW-IMAGEADDITION";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B830F69C2CCFA2A100A00FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UJ7NF2NUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TABLEVIEW_IMAGEADDITION/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nandhika.TABLEVIEW-IMAGEADDITION";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B830F69D2CCFA2A100A00FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B830F69E2CCFA2A100A00FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B830F6A02CCFA2A100A00FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UJ7NF2NUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nandhika.TABLEVIEW-IMAGEADDITIONTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TABLEVIEW_IMAGEADDITION.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TABLEVIEW_IMAGEADDITION";
+			};
+			name = Debug;
+		};
+		B830F6A12CCFA2A100A00FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UJ7NF2NUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nandhika.TABLEVIEW-IMAGEADDITIONTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TABLEVIEW_IMAGEADDITION.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TABLEVIEW_IMAGEADDITION";
+			};
+			name = Release;
+		};
+		B830F6A32CCFA2A100A00FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UJ7NF2NUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nandhika.TABLEVIEW-IMAGEADDITIONUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TABLEVIEW_IMAGEADDITION;
+			};
+			name = Debug;
+		};
+		B830F6A42CCFA2A100A00FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UJ7NF2NUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nandhika.TABLEVIEW-IMAGEADDITIONUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TABLEVIEW_IMAGEADDITION;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B830F66C2CCFA2A000A00FDA /* Build configuration list for PBXProject "TABLEVIEW_IMAGEADDITION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B830F69D2CCFA2A100A00FDA /* Debug */,
+				B830F69E2CCFA2A100A00FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B830F69A2CCFA2A100A00FDA /* Build configuration list for PBXNativeTarget "TABLEVIEW_IMAGEADDITION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B830F69B2CCFA2A100A00FDA /* Debug */,
+				B830F69C2CCFA2A100A00FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B830F69F2CCFA2A100A00FDA /* Build configuration list for PBXNativeTarget "TABLEVIEW_IMAGEADDITIONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B830F6A02CCFA2A100A00FDA /* Debug */,
+				B830F6A12CCFA2A100A00FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B830F6A22CCFA2A100A00FDA /* Build configuration list for PBXNativeTarget "TABLEVIEW_IMAGEADDITIONUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B830F6A32CCFA2A100A00FDA /* Debug */,
+				B830F6A42CCFA2A100A00FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B830F6692CCFA2A000A00FDA /* Project object */;
+}
